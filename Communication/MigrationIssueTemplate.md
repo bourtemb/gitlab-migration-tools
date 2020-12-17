@@ -20,6 +20,9 @@ connect once on https://gitlab.com using the Github authentication AT LEAST 24 H
 Another possibility is for these users to create AT LEAST 24 HOURS BEFORE THE MIGRATION an account on gitlab.com using the same e-mail address as their Github primary address which MUST BE PUBLIC in this case.
 Please note that if you set up Github to keep your e-mail address private, all the commits done with an address like my-github-account@noreply.github.com will not be recognized as coming from your gitlab or gthub account. So your contribution stats might not be as good as before for your past contributions.
 
+If a contributor does not login on gitlab.com using the github button or if his e-mail addresses on his gitlab.com account do not match the PUBLIC e-mail addresses set on his Github account, all the comments made by this contributor will appear as created by the tango-controls-bot account.
+A line will be added in the comment, specifying that this comment was originally created by <<the github user>>.
+
 If you are using several e-mail addresses on Github (alternate e-mail addresses), it might be useful to specify them as well in you Gitlab account to ensure all your commits are correctly linked to your Gitlab account.
 
 ### Migration steps
@@ -32,7 +35,7 @@ Before the migration, the Github repository might be switched to archive mode (r
 
 This repository on github will probably be kept as read-only mirrors of the gitlab repositories.
 
-Here is the list of contributors who should login to Gitlab.com as described above:
+Here is the list of contributors who should login to Gitlab.com as described above asap:
 -@firstuser
 -@seconduser
 -...
