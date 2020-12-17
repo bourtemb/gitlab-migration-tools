@@ -2,7 +2,7 @@
 
 ## Context
 The Tango Steering Committee took the decision to move the tango-controls git repositories from Github (https://github.com/tango-controls) to Gitlab (https://gitlab.com/tango-controls).
-This decision was taken as a consequence of the recent changes in Travis CI policy which will no longer be as Open Source Software friendly as in the past, starting from january 1st 2021.
+This decision was taken as a consequence of the recent changes in Travis CI policy which will no longer be as Open Source Software friendly as in the past, starting from January 1st 2021.
 Open Source projects like tango-controls are now considered as sponsored projects and no longer benefit from the same advantages as before.
 So it has been decided to replace Travis CI with an alternative.
 Since most of the institutes using tango-controls are already using gitlab for their private projects and gitlab-ci is a good alternative to travis CI, it has been decided to migrate the tango-controls github repositories to Gitlab.
