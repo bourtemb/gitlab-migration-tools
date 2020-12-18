@@ -29,7 +29,7 @@ If a contributor does not login on gitlab.com using the github button or if his 
 A line will be added in the comment, specifying that this comment was originally created by <<the github user>>.
 
 A migration dedicated issue will be created in each Github repository to coordinate the migration.
-This issue will mention all the contributors of the project and inform them about the deadline to log in to Gitlab with their Github account or to create a gitlab.com account using the same e-mail address as their Github public primary address.
+This issue will mention all the contributors of the project and ask them to log in to Gitlab with their Github account or to create a gitlab.com account using the same e-mail address as their Github public primary address asap.
 
 If you are using several e-mail addresses on Github (alternate e-mail addresses), it might be useful to specify them as well in your Gitlab account to ensure all your commits are correctly linked to your Gitlab account.
 
