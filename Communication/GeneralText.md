@@ -26,7 +26,7 @@ Another possibility is for these users to create an account on gitlab.com AT LEA
 Please note that if you set up Github to keep your e-mail address private, all the commits done with an address like my-github-account@noreply.github.com will not be recognized as coming from your gitlab or gthub account. So your contribution stats might not be as good as before for your past contributions.
 
 If a contributor does not login on gitlab.com using the github button or if his e-mail addresses on his gitlab.com account does not match the PUBLIC e-mail addresses set on his Github account, all the comments made by this contributor will appear as created by the tango-controls-bot account.
-A line will be added in the comment, specifying that this comment was originally created by <<the github user>>.
+A line will be added in the comment, specifying that this comment was "_Created by: <<the github user>>_".
 
 A migration dedicated issue will be created in each Github repository to coordinate the migration.
 This issue will mention all the contributors of the project and ask them to log in to Gitlab with their Github account or to create a gitlab.com account using the same e-mail address as their Github public primary address asap.
@@ -34,10 +34,10 @@ This issue will mention all the contributors of the project and ask them to log 
 If you are using several e-mail addresses on Github (alternate e-mail addresses), it might be useful to specify them as well in your Gitlab account to ensure all your commits are correctly linked to your Gitlab account.
 
 ### Migration steps:
-1- Convert the Travis CI yml file to an equivalent gitlab-ci yml file and test it on a test gitlab repository.
-2- Decide with the repository admins on a date for the migration to Gitlab
-3- Publish a deadline for the users to login to gitlab using the github authentication button or use the same e-mail address as the Github PUBLIC primary address in the gitlab.com account.
-4- The Tango-Controls Gitlab migration team (https://github.com/orgs/tango-controls/teams/gitlab-migration) will migrate the repository at least 24h after the login deadline (to ensure all the new accounts are well taken into account by Gitlab).
+1- Convert the Travis CI yml file to an equivalent gitlab-ci yml file and test it on a test gitlab repository (under https://gitlab.com/tango-controls/test\_gh_import for instance)
+2- Ask the repository users/contributors to login ASAP to gitlab.com using the github authentication button or use the same e-mail address as the Github PUBLIC primary address in the gitlab.com account.
+3- Decide with the repository admins on a date for the migration to Gitlab and publish this date in an issue.
+4- If the green light is given by the repository admins, the Tango-Controls Gitlab migration team (https://github.com/orgs/tango-controls/teams/gitlab-migration) will migrate the repository at least 24h after the login deadline (to ensure all the new accounts are well taken into account by Gitlab).
 The migration will be done using the tango-controls-bot generic account.
 Before the migration, the Github repository might be switched to archive mode (read-only) to ensure no modification occurs during the migration.
 
