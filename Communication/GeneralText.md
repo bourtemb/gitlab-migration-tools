@@ -20,7 +20,8 @@ The migration from Github to Gitlab will focus primarily on the most active proj
 The projects will be migrated one by one by the tango-controls Gitlab migration team in coordination with the different tango-controls Github repositories administrators.
 
 To ensure a smooth migration, it is important/better that the contributors of all the migrated repositories (commits, comments on issues or pull requests, issue creators) 
-connect once on gitlab.com using the Github authentication AT LEAST 24 HOURS BEFORE THE MIGRATION. 
+connect once on gitlab.com using the Github authentication AT LEAST 24 HOURS BEFORE THE MIGRATION.
+Please note that login on gitlab.com using your Github account is safe and doesn't give your Github password to Gitlab.
 Another possibility is for these users to create an account on gitlab.com AT LEAST 24 HOURS BEFORE THE MIGRATION using the same e-mail address as their Github primary address which MUST BE PUBLIC in this case.
 Please note that if you set up Github to keep your e-mail address private, all the commits done with an address like my-github-account@noreply.github.com will not be recognized as coming from your gitlab or gthub account. So your contribution stats might not be as good as before for your past contributions.
 

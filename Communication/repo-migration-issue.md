@@ -10,7 +10,9 @@ For convenience, here is the list of contributors we could already find:
 [ ] - @
 
 Please tick the box corresponding to your account above when you've already done the login to Gitlab.com using your Github account.
-If you are not allowed to tick the box, please simply comment this issue once you've login to gitlab.com using your Github account.
+If you are not allowed to tick this box, please simply comment this issue once you've login to gitlab.com using your Github account.
+
+Please note that login on gitlab.com using your Github account is safe and doesn't give your Github password to Gitlab.
 
 Thanks for your cooperation.
 

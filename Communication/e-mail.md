@@ -1,4 +1,4 @@
-Subject: Please log into GL with your GH account ASAP
+Subject: Gitlab Migration: Please log into GL with your GH account ASAP
 
 Dear Tango contributor,
 
